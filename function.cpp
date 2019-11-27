@@ -15,6 +15,8 @@ double f(int i) {
 	return (i*i + (i - 1)*(i - 1) + (i - 2)*(i - 2) - 5) / 3.14;
 }
 
+inline int twice(int i) { return 2 * i; }
+
 int main()
 {
 	int x;
