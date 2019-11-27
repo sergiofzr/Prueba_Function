@@ -24,6 +24,8 @@ int main()
 	float y = 3.14;
 
 	double z = y + f(x);
+	long fact = factorial(x);
 	
 	cout << "The value of z is: " << z << '\n';
+	cout << "The factorial of" << x << " is " << fact << '\n';
 }
